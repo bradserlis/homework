@@ -33,3 +33,8 @@ When a feature / bug has been successful on another branch and you are ready to 
 
 What command do you use to send all of the work that you've done locally to your remote repository?
 git push
+
+Part 2
+
+Part 3 - Fake Resume Site
+
