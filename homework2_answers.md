@@ -18,3 +18,12 @@ Why is it important to use -- when changing files back to a previous state?
 the -- lets git know that you will not be switching branches, and are instead reverting to a previous file version
 Why might you want to reset your files back to a previous commit?
 A bug may have been encountered in new iterations
+
+===
+What command do you use to create a branch?
+git branch (branch name)
+What command do you use to use a different branch?
+git checkout (branch name)
+Why would you want to use a branch other than the default master?
+working on a feature, or trying to solve a bug in a an environment that will not affect the main app
+
