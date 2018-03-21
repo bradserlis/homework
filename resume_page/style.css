@@ -7,11 +7,11 @@ h3{
 	color:rgba(20, 200, 20, .8);
 }
 
-body{
+/*body{
 	margin: auto;
     width: 50%;
     padding: 10px;
-}
+}*/
 
 img {
 	display: block;
@@ -19,12 +19,36 @@ img {
 	margin-right: auto;
 }
 
-a{
+li {
+	float:left;
+}
+
+a  {
 	display:inline;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0 auto;
+    padding: 5px;
+    display:block;
+    width: 100%;
 }
 
 .center{
     width:200px;
     margin:0 auto;
     text-align:left;
+}
+
+li a {
+	display: block;
+	padding: 10px 10px;
+	text-decoration: none;
+	background: lightblue;
+    border: 2px black solid;
+}
+
+.projects {
+	display: block;
 }
