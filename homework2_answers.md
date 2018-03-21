@@ -27,3 +27,9 @@ git checkout (branch name)
 Why would you want to use a branch other than the default master?
 working on a feature, or trying to solve a bug in a an environment that will not affect the main app
 
+===
+Give an example for when you would use git merge and give an example for when it would be better to submit a pull request to have your branch merged
+When a feature / bug has been successful on another branch and you are ready to combine the additional branch back to the main branch and app. If the content is not your own that you were working on, or you anticipate the owner/team may have added additional content that may or may not interact well with the additional branch's code.
+
+What command do you use to send all of the work that you've done locally to your remote repository?
+git push
