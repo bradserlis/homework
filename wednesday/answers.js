@@ -37,11 +37,11 @@
 // var catMessageArray = ["human, why you taking pictures", "the catnip made me", "why does the red dot get me"];
 // for(var i=0; i < 21; i++){
 // 	if(i%2 === 0){
-// 	console.log(catMessageArray[Math.round(Math.random()*catMessageArray.length-1)]);
+// 	console.log(catMessageArray[Math.round(Math.random()*(catMessageArray.length-1))]);
 // 	} else{
 // 		console.log(i);
 // 	}
-// };
+// }
 // =============================================
 
 // 4. 
@@ -85,8 +85,61 @@
 // kristyn[2] = "Philadelphia";
 
 // 6.
-var turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+// var turtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
 
-for (var i=0; i<turtles.length; i++){
-	console.log(turtles[i].toUpperCase());
-}
+// for (var i=0; i<turtles.length; i++){
+// 	console.log(turtles[i].toUpperCase());
+// }
+
+// 7.
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
+
+
+
+// var kristynsShoe = kristynsCloset.shift();
+// thomsCloset[2].unshift(kristynsShoe);
+
+// var thomsShirtsLength = thomsCloset[0].length;
+// var thomsShirt = Math.floor(Math.random(thomsShirtsLength));
+// var thomsPantsLength = thomsCloset[1].length;
+// var thomsPants = Math.floor(Math.random(thomsPantsLength));
+// var thomsAccessoriesLength = thomsCloset[2].length;
+// var thomsAccessory= Math.floor(Math.random(thomsAccessoriesLength)); 
+
+
+// for (var i=0; i<kristynsCloset.length; i++){
+// 	var kristynOutfit = kristynsCloset[Math.floor(Math.random())] 
+// };
+
+// 8. 
+
+
