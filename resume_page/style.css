@@ -1,0 +1,30 @@
+h1{
+	/*text-align: center;*/
+	color: blue;
+}
+
+h3{
+	color:rgba(20, 200, 20, .8);
+}
+
+body{
+	margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a{
+	display:inline;
+}
+
+.center{
+    width:200px;
+    margin:0 auto;
+    text-align:left;
+}
