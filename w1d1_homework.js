@@ -20,8 +20,8 @@
 a < b;
 c > d;
 'Name' == 'Name';
-a + b == c;
-a*a == d;
+a + b === c;
+a*a === d;
 e == 'Kevin';
 48 == '48';
 
