@@ -10,4 +10,35 @@
 // }
 
 // 3. 
-//
+// for(var i=0; i < 21; i++){
+// 	console.log("Love me, pet me! HSSSS!");
+// }
+// for(var i=0; i < 21; i++){
+// 	if(i%2 === 0){
+// 	var catMessageNumber = Math.floor(Math.random()*3) 
+// 	switch(){
+// 		case 0:
+// 			console.log("human...why you taking picutres of me?...")
+// 		break;
+// 		case 1:
+// 			console.log("...the catnip made me do it..")
+// 		break;
+// 		case 2:
+// 			console.log("...why does the red dot always get away..")
+// 		break;
+// 		default:
+// 	}	
+// 	} else {console.log(i);
+// 	}
+// }
+
+// ===== trying Alternative method from classmate======
+// var catMessageArray = ["human, why you taking pictures", "the catnip made me", "why does the red dot get me"];
+// for(var i=0; i < 21; i++){
+// 	if(i%2 === 0){
+// 	console.log(catMessageArray[Math.round(Math.random()*catMessageArray.length-1)]);
+// 	} else{
+// 		console.log(i);
+// 	}
+// };
+// =============================================
