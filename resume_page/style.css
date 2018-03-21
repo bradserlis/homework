@@ -1,23 +1,26 @@
 h1{
 	/*text-align: center;*/
 	color: blue;
+    padding-top: 20px;
 }
 
 h3{
 	color:rgba(20, 200, 20, .8);
 }
 
-/*body{
-	margin: auto;
-    width: 50%;
-    padding: 10px;
-}*/
+body{
+    background:;
+}
 
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/*table {
+    border: 1px solid black;
+}*/
 
 li {
 	float:left;
