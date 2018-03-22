@@ -92,36 +92,36 @@
 // }
 
 // 7.
-const kristynsCloset = [
-  "left shoe",
-  "cowboy boots",
-  "right sock",
-  "GA hoodie",
-  "green pants",
-  "yellow knit hat",
-  "marshmallow peeps"
-];
+// const kristynsCloset = [
+//   "left shoe",
+//   "cowboy boots",
+//   "right sock",
+//   "GA hoodie",
+//   "green pants",
+//   "yellow knit hat",
+//   "marshmallow peeps"
+// ];
 
-Thom's closet is more complicated. Check out this nested data structure!!
-const thomsCloset = [
-  [
-    // These are Thom's shirts
-    "grey button-up",
-    "dark grey button-up",
-    "light blue button-up",
-    "blue button-up",
-  ],[
-    // These are Thom's pants
-    "grey jeans",
-    "jeans",
-    "PJs"
-  ],[
-    // Thom's accessories
-    "wool mittens",
-    "wool scarf",
-    "raybans"
-  ]
-];
+// Thom's closet is more complicated. Check out this nested data structure!!
+// const thomsCloset = [
+//   [
+//     // These are Thom's shirts
+//     "grey button-up",
+//     "dark grey button-up",
+//     "light blue button-up",
+//     "blue button-up",
+//   ],[
+//     // These are Thom's pants
+//     "grey jeans",
+//     "jeans",
+//     "PJs"
+//   ],[
+//     // Thom's accessories
+//     "wool mittens",
+//     "wool scarf",
+//     "raybans"
+//   ]
+// ];
 
 
 
@@ -140,17 +140,27 @@ const thomsCloset = [
 // 	var kristynOutfit = kristynsCloset[Math.floor(Math.random())] 
 // };
 
-8. 
+// 8. 
 
-for (var i=0; i<kristynsCloset.length; i++){
-	console.log(`WHIRR: Now washing ${kristynsCloset[i]}`); 
+// for (var i=0; i<kristynsCloset.length; i++){
+// 	console.log(`WHIRR: Now washing ${kristynsCloset[i]}`); 
+// }
+
+// function thomInventory(){
+// 	for(var i=0; i < thomsCloset.length; i++){
+// 	for(var x=0; x < thomsCloset[i].length; x++){
+// 		console.log(thomsCloset[i][x]);
+// 	};
+// }
+
+
+// thomInventory();
+
+// 9. 
+var sum = 0;
+for(var i=0; i<1000; i++){
+	if(i%3===0 || i%5===0){
+		sum += i;
+	}
 }
-
-function thomInventory(){
-	for(var i=0; i < thomsCloset.length; i++){
-	for(var x=0; x < thomsCloset[i].length; x++){
-		console.log(thomsCloset[i][x]);
-	};
-}
-
-thomInventory();
+console.log(sum);
